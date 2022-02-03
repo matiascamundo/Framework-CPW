@@ -1,0 +1,326 @@
+body{
+font-family: arial, helvetica, sans-serif;
+min-width:1000px;
+background: #f7f0f0 url(../images/site-bg.png) repeat-x;
+}
+
+.top{
+
+	overflow: auto;
+}
+
+.logo{
+
+	float: left;
+}
+
+.lang{
+	float: right;
+}
+
+.nav-slider{
+	background-color:
+
+}
+
+.nav{
+	background-color: cyan;
+
+}
+
+.nav .menu{
+	list-style:none;
+	padding-left:0px;
+	color: white; 
+}
+
+.nav .menu li{
+	float: left;
+	height: 45px;
+	text-align: center;
+	padding-left: 14px;
+	padding-right: 12px;
+}
+
+.botao-1, .botao-2,.botao-3,.botao-4,.botao-5,.botao-6{
+	width: 12%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+
+.botao-1{
+background-color: #1377d5;
+margin-right: 1%;
+margin-left: 1%;
+padding-top: 8px;
+padding-right: 10px;
+height: 37px ! important;
+}
+
+.botao-2{
+	background-color:#ff6633;
+margin-right: 1%;
+margin-left: 1%;
+line-height: 45px;
+}
+
+.botao-3{
+	background-color:#66cc00;
+	margin-right: 1%;
+	margin-left: 1%;
+	line-height: 45px;
+}
+.botao-4{
+	background-color:#bf7dbf;
+	margin-right: 1%;
+	margin-left: 1%;
+	line-height: 45px;
+}
+
+.botao-5{
+	background-color:#d1004e;
+	margin-right: 1%;
+	margin-left: 1%;
+	line-height: 45px;
+}
+
+.botao-6{
+	background-color:#ffb901;
+	margin-left:1%;
+	line-height: 45px;
+}
+
+
+.nav-slider-content{
+	float: left;
+	width: 73%;
+}
+
+.slider{
+	background-color: 
+}
+
+.slider img{
+	width: 100%;
+}
+
+.caption{
+	background-color: black;
+	color:white;
+	padding: 8px;
+	margin-top: -4px;
+}
+
+.content{
+	overflow: auto;
+}
+
+.left{
+
+	float: left;
+	width: 48%;
+}
+
+.article-bloc{
+	position:relative;
+	margin-bottom: 30px
+}
+
+.article-bloc img{
+	width: 100%;
+}
+
+.main-content-header{
+	color:#0088cc;
+	text-transform: uppercase;
+}
+
+.article-bloc-title{
+	color: white;
+}
+
+.article-bloc-infot{
+	background-color:#1377d5;
+	padding: 2px 10px 5px 10px;
+}
+
+.article-bloc-except{
+	background-color:rgba(19,119,213,0.5);
+	padding: 10px;
+	color:white;
+	bottom: 0;
+	position: absolute;
+}
+
+.right{
+
+	float: right;
+	width: 48%;
+}
+
+.sidebar{
+	background-color: ;
+	float: right;
+	width: 25%;
+
+}
+
+.sidebar-widget{
+	margin-bottom: 30px;
+}
+
+.sidebar-title{
+	color:white;
+	background-color:blue; 
+	padding: 5px;
+	margin:0px;
+	margin-top: -3px;
+	text-align: center;
+}
+
+.sidebar-content{
+	background-color: white;
+	padding:10px;
+	
+}
+
+.sidebar-social,.sidebar-content{
+	background-color: white;
+	text-align: center;
+}
+ 
+.widget-calendar{
+	border-collapse: collapse;
+	width: 100%;
+}
+.sidebar-social-calendar caption{
+background-color: #3f4f5f;
+color: white;
+padding: 5px;
+border-bottom: 1px solid #79848f;
+margin-right: -10px;
+margin-left: -10px;
+margin-top: -10px;
+}
+
+.widget-calendar-header  {
+	background-color: #3f4f5f;
+	color:#c0d3e6;
+
+}
+
+.widget-calendar tr th{
+font-weight: normal;	
+}
+
+.widget-calender tr td{
+	padding: 10px;
+}
+
+.table-footer{
+	background-color:#3f4f5f; 
+	color:#c0d3e6;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	overflow: auto;
+	
+	}
+
+	.table-footer-left{
+		float: left;
+
+	}
+	.table-footer-right{
+        float: right;
+	}
+
+	.sidebar-general img {
+		width: 100%;
+		
+	}
+.cabecalho{
+	margin-left: -8px;
+    margin-right: -8px;
+    height: 1px;
+}
+.footer{
+background-color:#444444;
+overflow: auto;
+padding-top: 30px;
+}
+
+.clear{
+	clear: both;
+}
+.footer-1{
+	float: left;
+	width: 25%;
+}
+
+.footer-1 img{
+	width: 89%;
+}
+.footer-2{
+	float: left;
+	width: 25%;
+}
+
+
+.footer-3{
+	float: left;
+	width: 25%;
+}
+.footer-4{
+	float: left;
+	width: 25%;
+}
+
+.footer .search-button{
+	background: url(../images/search-icon.png) no-repeat center center;
+	height: 27px;
+	width: 27px;
+	padding: 8px;
+	border-radius: 4px;
+	border:1px solid #cccccc;
+	border-top-left-radius: 0;
+	border-bottom-left-radius:0; 
+	margin-right: -1px;
+}
+
+.footer .search-field{
+	height: 23px;
+	border-radius: 4px;
+	border: 1px solid #cccccc; 
+	float: left;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-right: -1px;
+}
+
+.footer ul{
+	list-style: none;
+	padding-left: 0px;
+	margin:0px;
+}
+.footer h4{
+	margin: 0px;
+	color: white;
+}
+
+.footer h1{
+	margin-top: -11px;
+
+
+}
+.footer-copy{
+	background-color: black;
+	color: white;
+	padding-top: 0px;
+    margin-top: 130px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}

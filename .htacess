@@ -1,0 +1,5 @@
+#Impedir a listagem de dorectorios
+Options All - Indexes
+
+#301 redirecionar todo o acesso à pasta protected para o ínicio do site
+RedirectMatch 301 /meusite.com/protected(.*)$1
